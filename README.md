@@ -2,7 +2,7 @@
 
 ## 1. Objetivo del Proyecto
 
-El principal objetivo de este sistema es **optimizar la gestión de inventario** de frutas (manzanas, cerezas, peras) en las cámaras de frío. Busca facilitar el control en tiempo real y mejorar la eficiencia operativa de la empresa.
+El principal objetivo de este sistema es **optimizar la gestión de inventario** de frutas (manzanas, cerezas, peras, kiwis) en las cámaras de frío. Busca facilitar el control en tiempo real y mejorar la eficiencia operativa de la empresa.
 
 ---
 
