@@ -72,3 +72,34 @@ Opción para trasladar fruta de una cámara a otra.
 
 * **Cámara de Origen** y **Cámara de Destino**: Campos para seleccionar.
 * **Tipo y Cantidad**: Indicar qué se mueve.
+
+### 5. Arquitectura Tecnológica
+
+Esta sección define el stack tecnológico seleccionado para el desarrollo, despliegue y mantenimiento del Sistema de Gestión de Inventario.
+
+* **Infraestructura como Código (IaC):**
+    * **Contenedores:** Se utilizará **Docker** para la contenerización de las aplicaciones. El despliegue se realizará en un entorno **on-premise**, asegurando el control local sobre la infraestructura.
+    * **Base de Datos:** La solución de base de datos será **Azure PostgreSQL Flexible Server**, una base de datos relacional administrada en la nube de Azure, seleccionada por su robustez, consistencia transaccional (ACID) y su adecuación para datos estructurados.
+
+* **Frontend:**
+    * La interfaz de usuario será una aplicación web moderna desarrollada con la librería **React**.
+    * Se utilizará **Vite** como herramienta de construcción y servidor de desarrollo para garantizar un rendimiento óptimo y una experiencia de desarrollo ágil.
+
+* **Backend:**
+    * El servicio de backend será desarrollado en **Python**.
+    * La API seguirá la especificación **OpenAPI (Swagger)** para estandarizar la documentación, facilitar la integración con el frontend y permitir la generación automática de clientes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
